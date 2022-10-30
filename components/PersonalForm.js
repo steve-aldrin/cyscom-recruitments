@@ -117,10 +117,6 @@ const PersonalForm = ({ handleSubmit, values }) => {
                             background: "#28126C"
                         }} value="Morning Slot">Morning Slot</Select.Option>
 
-                    </Select>
-                    :
-                    <Select placeholder="Select your preferred time of interview" className={styles.input} style={{ color: '#fff', margin: '0px 20px', height: '40px' }}>
-
                         <Select.Option style={{
                             background: "#28126C"
                         }} value="Evening Slot">Evening Slot</Select.Option>
@@ -134,10 +130,6 @@ const PersonalForm = ({ handleSubmit, values }) => {
                         <Select.Option style={{
                             background: "#28126C"
                         }} value="Morning Slot">Morning Slot</Select.Option>
-
-                    </Select>
-                    :
-                    <Select placeholder="Select your preferred time of interview" className={styles.input} style={{ color: '#fff', margin: '0px 20px', height: '40px' }}>
 
                         <Select.Option style={{
                             background: "#28126C"
